@@ -12,7 +12,7 @@ WriteLine($"\"\"{GetStringNumbersRec(Input("M"), Input("N"))}\"\"");
 
 int Input(string text)
 {
-    WriteLine($"Введите номер {text}: ");
+    WriteLine($"Введите значение {text}: ");
     int number = int.Parse(ReadLine()!);
     return number;
 }
